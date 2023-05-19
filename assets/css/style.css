@@ -23,8 +23,9 @@ table{
     
 }
 #sexo_title{
-    margin-left: 84px;
-    
+    margin-left: 77px;
+    margin-right: 15px;
+        
 }
 
 #curso{
@@ -53,6 +54,7 @@ td{
 .tabelas{
     display: flex;
     flex-direction: row;
+    justify-content: center;
     
 }
 .tabela1,.tabela2{
@@ -67,7 +69,7 @@ td{
     justify-content: center;
     flex-direction: column;
 }
-.dados_aluno{
+.dados_aluno,.cabecalho{
     padding: 3px;
     border-bottom: 1px solid #cacaca;
     margin-bottom: 10px;
@@ -84,15 +86,97 @@ td{
 #cpf_inp,.rg,#inp_tel,.celular{
     width: 90px;
 }
+#td_cpf,#td_tel{
+    display: flex;
+    justify-content: space-around;
+   
+}
+#cpf_inp{
+    margin-right: 5px;
+}
 .lbl_rg{
     margin-left: 69.5px
 }
-
-#td_tel{
-    display: flex;
+.lbl_celular{
+    margin-left: 50px;
 }
+
 .tabela2{
     align-self: self-end;
     height: 80px;
    
+}
+.simbolo{
+    height: 25px;
+    width: 25px;
+    background-color: #ebebeb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: solid 1px #ccc;
+    
+
+}
+input,select{
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    outline-color: rgb(144, 189, 241);
+    outline-width: 10px;
+}
+
+td{
+    color: rgb(58, 58, 58);
+    font-size: 13px;
+}
+.inp_email{
+
+    margin-left: 15px;
+    display: flex;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+.test{
+    
+    margin-left: 10px;
+    outline: 0px;
+    border: none;
+    align-self: center;
+    
+}
+.cabecalho{
+    margin-top: 20px;
+}
+.submit td{
+
+    height: 33px;
+    width: 53.34px;
+    
+}
+.tabela1{
+    display: flex;
+    flex-direction: row;
+}
+#datanasc2{
+    display: flex;
+    justify-content: space-between;
+}
+.lbl_celular,.lbl_celular2,.lbl_rg,.lbl_rg2{
+    align-self: center
+}
+
+.tabela1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;    
+    margin: 0px;
+    
+}
+#td_cpf{
+    justify-content: space-between;
+}
+.td_nome{
+    width: 138.59px;
+}
+.table2{
+    margin-right: 41px;
 }
