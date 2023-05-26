@@ -11,6 +11,7 @@ table{
 }
 #datanasc,#curso,#sexo,#prontuario,#td_nome{
     text-align: left;    
+    flex-wrap: wrap;
     
     
 }
@@ -23,9 +24,14 @@ table{
     
 }
 #sexo_title{
-    margin-left: 77px;
+    margin-left: 75px;
     margin-right: 15px;
         
+}
+#sexo{
+    width: 56px;
+    height: 27px;
+    box-sizing: border-box;
 }
 
 #curso{
@@ -57,7 +63,7 @@ td{
     justify-content: center;
     
 }
-.tabela1,.tabela2{
+.tabela2,.table2{
     margin-left: 10px;
     font-size: 15px;
     font-weight: bold;
@@ -97,6 +103,7 @@ td{
 .lbl_rg{
     margin-left: 69.5px
 }
+
 .lbl_celular{
     margin-left: 50px;
 }
@@ -152,23 +159,33 @@ td{
     width: 53.34px;
     
 }
-.tabela1{
-    display: flex;
-    flex-direction: row;
-}
+
 #datanasc2{
     display: flex;
     justify-content: space-between;
+   
+    
 }
 .lbl_celular,.lbl_celular2,.lbl_rg,.lbl_rg2{
     align-self: center
+}
+
+.lbl_rg2{
+    margin-left: 70px;
+}
+.lbl_celular2{
+    margin-left: 30px;
+}
+#data{
+    height: 27px;
+    box-sizing: border-box;
 }
 
 .tabela1{
     display: flex;
     flex-direction: row;
     justify-content: center;    
-    margin: 0px;
+   
     
 }
 #td_cpf{
@@ -177,6 +194,58 @@ td{
 .td_nome{
     width: 138.59px;
 }
-.table2{
-    margin-right: 41px;
+
+input[type=text],#nome_aluno,select{
+    height: 27px;
+    box-sizing: border-box;
+}
+#curso{
+    width: 300px;
+}
+#prontuario{
+
+    box-sizing: border-box;
+}
+input[type=submit]{
+    width: 55px;
+    height: 28px;
+    color: white;
+}
+#enviar{
+    background-color: rgb(4, 107, 155);
+}
+#limpar{
+    background-color: rgb(223, 145, 2);
+    
+}
+#limpar:hover,#enviar:hover{
+    cursor: pointer;
+}
+.tabela1,.table1{
+    width: 454px;
+    box-sizing: border-box;
+}
+.tabela2,.table2{
+    width: 411.51px;
+    box-sizing: border-box;
+    
+}
+
+
+.tabelao1{
+    display: flex;
+    justify-content: center;
+    
+}
+.prontu{
+    width: 121px;
+    box-sizing: border-box;
+}
+#td_cpf{
+    width: 326.08px;
+    box-sizing: border-box;
+}
+.cpf_name{
+    width: 82px;
+    box-sizing: border-box;
 }
